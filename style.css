@@ -2,10 +2,155 @@ body {
   background-color: #9bb98b !important;
   margin: 0;
   height: 100vh;
+  color: white;
 }
 
-.bg-body-tertiary {
+.page_header {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: times;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  padding-bottom: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+
+p {
+  color: #ffffff;
+  font-family: times;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  text-align: center;
+  text-transform: none;
+}
+
+#menuItems {
+  text-align: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+/* 
+.header-bar {
   background-color: #9bb98b !important;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+} */
+/* Style for about page */
+.linocut_gallery {
+  justify-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.linocut_image1 {
+  width: 100%;
+  height: 428px;
+  margin: 0px auto;
+  max-width: 300px;
+}
+
+.linocut_image2 {
+  width: 100%;
+  height: 428px;
+  margin: 0px auto;
+  max-width: 300px;
+}
+.linocut_image3 {
+  width: 482px;
+  height: 428px;
+  margin: 0px auto;
+  max-width: 812px;
+}
+
+.linocut_image1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.6;
+}
+.linocut_image2:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.6;
+}
+.linocut_image3:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.6;
+}
+
+.gladiolus_image {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.gladiolus_gallery {
+  justify-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 0px;
+}
+
+.gladiolus_gallery_image {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* Style for work page */
+
+a .work_image {
+  display: inline-block;
+  line-height: 0;
+}
+
+a .work_image img {
+  display: block;
+  border: none;
 }
 
 .work_image {
@@ -20,4 +165,69 @@ body {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
   opacity: 0.6;
+}
+
+/* Style for contact page */
+
+.contact_header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #eee;
+  font-family: times;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+#contact_info {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contact_info_content p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#contact_image {
+  display: block;
+  margin: 0 auto;
+  width: 1170px;
+  height: 870px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for bootstrap clases */
+
+.bg-body-tertiary {
+  background-color: #9bb98b !important;
+  color: white;
+}
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: black !important;
 }
