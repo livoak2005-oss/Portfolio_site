@@ -1,0 +1,23 @@
+body {
+  background-color: #9bb98b !important;
+  margin: 0;
+  height: 100vh;
+}
+
+.bg-body-tertiary {
+  background-color: #9bb98b !important;
+}
+
+.work_image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin: 0px auto;
+  display: block;
+}
+
+.work_image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.6;
+}
