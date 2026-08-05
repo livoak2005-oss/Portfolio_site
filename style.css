@@ -10,6 +10,10 @@ img {
   max-width: 100%;
 }
 
+.nav-link.dropdown-toggle{
+  font-size: 20px;
+}
+
 .page_header {
   text-align: center;
   font-size: 50px;
