@@ -1,8 +1,13 @@
 body {
   background-color: #9bb98b !important;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
 }
 
 .page_header {
@@ -35,9 +40,38 @@ p {
   text-transform: none;
 }
 
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #1d2b18;
+}
+
 #menuItems {
   text-align: center;
   justify-content: center;
+}
+
+#contact_icons {
+  text-align: center;
+  display: block;
+  list-style-type: none;
+}
+
+#contact_icons ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+#contact_icons ul li {
+  display: inline-block;
 }
 
 ul li {
@@ -84,6 +118,13 @@ ul li {
   max-width: 300px;
 }
 .linocut_image3 {
+  width: 482px;
+  height: 428px;
+  margin: 0px auto;
+  max-width: 812px;
+}
+
+.linocut_image4 {
   width: 482px;
   height: 428px;
   margin: 0px auto;
@@ -143,6 +184,15 @@ ul li {
 
 /* Style for work page */
 
+.work_gallery {
+  justify-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 a .work_image {
   display: inline-block;
   line-height: 0;
@@ -158,7 +208,6 @@ a .work_image img {
   height: auto;
   max-width: 300px;
   margin: 0px auto;
-  display: block;
 }
 
 .work_image:hover {
@@ -231,3 +280,163 @@ a .work_image img {
 .navbar-nav .nav-link:hover {
   color: black !important;
 }
+/* style for PRSSA page */
+.prssa_image {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#press_coverage {
+  font-size: 24px;
+}
+
+#prssaCarousel{
+    max-width:900px;
+    margin:0 auto 2rem;
+    background:#111;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.carousel-inner {
+    background:#111;
+}
+
+.prssaCarousel_image{
+    width:100%;
+    height:min(70vh, 650px);
+    object-fit:contain;
+    background:#111;
+}
+
+/* style for TPDVSA page */
+
+.tpdvsa_image {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/* style for Printmaking Club page */
+#printmaking_coverage {
+  font-size: 24px;
+}
+
+/* style for CSNA page */
+.csna_image{
+    width:100%;
+    height:min(70vh, 600px);
+    object-fit:contain;
+}
+#csnaCarousel{
+    max-width:900px;
+    margin:0 auto 2rem;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    background:#111;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width:3rem;
+    height:3rem;
+}
+
+.carousel-indicators button{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+}
+/* style for Dos Palomas Press page */
+#press_section {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.dp_image {
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  margin: 0px auto;
+}
+
+/* style for Red Rook Press page */
+
+.redhook_gallery {
+  justify-self: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.gallery-img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:8px;
+    cursor:pointer;
+    transition:transform .3s ease, box-shadow .3s ease;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.gallery-img:hover{
+    transform:scale(1.03);
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+#modalImage{
+    max-height:80vh;
+    width:auto;
+    object-fit:contain;
+}
+
+.redhook_image {
+  width: 100%;
+  height: 450px;
+  max-width: 300px;
+  margin: 0px auto;
+}
+
+.redhook_image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.6;
+}
+
+@media (max-width: 767px) {
+  .page_header {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .prssaCarousel_image,
+  .csna_image {
+    height: min(60vh, 420px);
+  }
+}
+
