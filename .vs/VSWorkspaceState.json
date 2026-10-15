@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\static",
+    "\\vendor",
+    "\\vendor\\bootstrap",
+    "\\vendor\\bootstrap\\css",
+    "\\vendor\\bootstrap\\js"
   ],
+  "SelectedNode": "\\Contact.html",
   "PreviewInSolutionExplorer": false
 }
